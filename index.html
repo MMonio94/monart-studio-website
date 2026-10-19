@@ -222,7 +222,22 @@ header {
     .gypsum-art {
       background: #eee2df;
     }
+.gypsum-art {
+  background: #eee2df;
+}
 
+.product-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.product-art {
+  overflow: hidden;
+}
+
+.product-content { padding: 28px; }
     .product-content { padding: 28px; }
 
     .small-label {
@@ -449,7 +464,9 @@ header {
 
       <div class="collections">
         <article class="product-card">
-          <div class="product-art cookie-art" aria-hidden="true">🍪</div>
+          <div class="product-art cookie-art">
+  <img src="cookies-halloween-01.jpg.jpg" alt="Plain Halloween cookies ready to decorate">
+</div>
           <div class="product-content">
             <div class="small-label">Bake · Decorate · Celebrate</div>
             <h3>Cookie Decorating</h3>
@@ -463,7 +480,9 @@ header {
         </article>
 
         <article class="product-card">
-          <div class="product-art gypsum-art" aria-hidden="true">🎨</div>
+         <div class="product-art gypsum-art">
+  <img src="gypsum-halloween-01.jpg.jpg" alt="Halloween gypsum decorations ready to paint">
+</div>
           <div class="product-content">
             <div class="small-label">Paint · Personalize · Enjoy</div>
             <h3>Gypsum Art</h3>
